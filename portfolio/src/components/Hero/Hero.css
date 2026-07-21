@@ -69,3 +69,27 @@
     transform: translateY(-4px);
     box-shadow: 0 10px 30px rgba(62, 50, 44, 0.08);
 }
+
+
+@media (max-width: 768px) {
+    .hero {
+        margin-top: 20px;
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    .hero h3 {
+        font-size: 1.5rem;
+    }
+
+    .hero p {
+        font-size: 14px;
+    }
+
+    .cv-btn,
+    .linkedin-btn {
+        padding: 10px 24px;
+    }
+}
