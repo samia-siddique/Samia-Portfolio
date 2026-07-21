@@ -33,7 +33,7 @@
     font-size: 1.1rem;
 }
 
-.btns {
+.hero-btns {
     display: flex;
     gap: 16px;
 }

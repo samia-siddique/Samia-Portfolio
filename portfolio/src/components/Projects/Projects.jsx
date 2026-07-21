@@ -23,7 +23,8 @@ const Projects = () => {
 
                         <p>React • Node.js • Express • MongoDB</p>
 
-                        <div className="btns">
+                        
+                        <div className="projects-btns">
                             <a href="https://build-book-eta.vercel.app/" className='live-demo'>Live Demo</a>
                             <a href="https://github.com/samia-siddique/BuildBook" className='icon' ><FaGithub /></a>
                         </div></div>
@@ -42,7 +43,7 @@ const Projects = () => {
                         <p>React • Vite • Webcam API
                         </p>
 
-                        <div className="btns">
+                        <div className="projects-btns">
                             <a href="https://clicksy.vercel.app/" className='live-demo'>Live Demo</a>
                             <a href="https://github.com/samia-siddique/Clicksy" className='icon'><FaGithub /></a>
                         </div></div>
@@ -62,7 +63,7 @@ const Projects = () => {
                         <p>React • Vite • Webcam API
                         </p>
 
-                        <div className="btns">
+                        <div className="projects-btns">
                             <a href="https://surgi-care.vercel.app/" className='live-demo'>Live Demo</a>
                             <a href="https://github.com/samia-siddique/SurgiCare" className='icon'><FaGithub /></a>
                         </div></div>

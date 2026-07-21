@@ -61,10 +61,11 @@
     line-height: 1.4;
 }
 
-.btns {
+.projects-btns {
     display: flex;
     align-items: center;
     margin-top: auto;
+    gap: 16px;
 }
 
 .live-demo {

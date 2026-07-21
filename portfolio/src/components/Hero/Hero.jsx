@@ -44,7 +44,7 @@ const Hero = () => {
 
                 </p>
 
-                <div className="btns">
+                <div className="hero-btns">
                     <button className='cv-btn'>cv</button>
                     <button className='linkedin-btn'> <a href="https://www.linkedin.com/in/samia-siddique/"> linkedin </a></button>
                 </div>
