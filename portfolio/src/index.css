@@ -1,0 +1,63 @@
+:root {
+  /* Background */
+  --bg: #FFFDF8;
+  --bg-card: #FFFFFF;
+  --bg-section: #FFF8F4;
+
+  /* Text */
+  --text: #4B4453;
+  --text-light: #7D7688;
+  --heading: #2d2438;
+
+  /* Pastel Colors */
+  --pink: #FFD6E8;
+  --yellow: #FFE79A;
+  --blue: #D8F0FF;
+  --mint: #D9F6E5;
+  --lavender: #E6D9FF;
+  --peach: #FFDCC8;
+
+  /* UI */
+  --border: #F0E8E3;
+  --radius: 24px;
+  --transition: 0.3s ease;
+
+  /* Fonts */
+  --font-heading: "DM Serif Display", serif;
+  --font-body: "Manrope", sans-serif;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bg);
+  font-family: var(--font-body);
+  color: var(--text);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+  color: var(--heading);
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
