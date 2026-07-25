@@ -91,31 +91,50 @@
 }
 
 @media (max-width: 768px) {
-    .project-cards {
-        grid-template-columns: repeat(1, 1fr);
-        margin-top: 30px;
-        justify-items: center;
+    .projects {
+        padding: 60px 20px;
     }
 
     .projects h2 {
-        font-size: 1.5rem;
+        font-size: 2.2rem;
+    }
+
+    .project-cards {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 40px;
+        margin-top: 40px;
     }
 
     .project-card {
-        width: 330px;
-
+        width: 100%;
+        max-width: 350px;
+        min-height: auto;
     }
 
-    .live-demo {
-        padding: 10px 24px;
+    .project-card img {
+        height: 190px;
     }
 
-    .icon {
-        font-size: 20px;
+    .card-container {
+        padding: 18px;
+        gap: 20px;
+    }
+
+    .card-container h3 {
+        font-size: 1.3rem;
     }
 
     .card-container p {
-        font-size: 14px;
+        font-size: 0.95rem;
     }
 
+    .live-demo {
+        padding: 10px 22px;
+        font-size: 0.9rem;
+    }
+
+    .icon {
+        font-size: 24px;
+    }
 }

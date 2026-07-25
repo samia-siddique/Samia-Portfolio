@@ -11,8 +11,15 @@ ul {
 }
 
 @media (max-width: 768px) {
-    ul{
-        gap: 20px;
-        font-size: 14px;
+    nav {
+        margin-top: 20px;
+    }
+
+    ul {
+        gap: 16px;
+    }
+
+    li a {
+        font-size: 13px;
     }
 }
