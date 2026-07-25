@@ -36,11 +36,12 @@ const Hero = () => {
     return (
         <>
             <Navbar />
+
             <div className="hero">
                 <h1>{greetings[index]}</h1>
                 <h3>I am <span>Samia !</span> </h3>
 
-                <p>I'm an undergraduate software developer who loves turning ideas into modern, interactive web experiences. I enjoy building full-stack applications and crafting clean, creative user interfaces.
+                <p>Full-Stack Developer focused on building responsive, accessible, and user-friendly web applications using React, Node.js, and MongoDB. I enjoy building full-stack applications and crafting clean, creative user interfaces.
 
                 </p>
 

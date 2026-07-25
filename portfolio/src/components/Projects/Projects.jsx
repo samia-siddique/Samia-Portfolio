@@ -6,7 +6,7 @@ import assets from '../../assets/assets';
 const Projects = () => {
 
     return (
-        <div className='projects'>
+        <div id='projects' className='projects'>
 
             <h2>Projects</h2>
 
@@ -17,13 +17,12 @@ const Projects = () => {
                     <div className="card-container">
 
                         <h3>Buildbook</h3>
-                        <p>A full-stack project management app to organize tasks,
-                            track goals, and improve productivity.
+                        <p>A MERN productivity platform where users manage projects, goals, and study sessions with authentication and a responsive dashboard.
                         </p>
 
                         <p>React • Node.js • Express • MongoDB</p>
 
-                        
+
                         <div className="projects-btns">
                             <a href="https://build-book-eta.vercel.app/" className='live-demo'>Live Demo</a>
                             <a href="https://github.com/samia-siddique/BuildBook" className='icon' ><FaGithub /></a>
@@ -55,8 +54,7 @@ const Projects = () => {
                     <div className="card-container">
 
                         <h3>SurgiCare</h3>
-                        <p>A creative online photobooth where users can capture,
-                            customize, and download photo strips.
+                        <p>A healthcare platform connecting patients with trusted surgeons through appointment booking and informative doctor profiles.
 
                         </p>
 
