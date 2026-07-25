@@ -18,3 +18,6 @@ A personal portfolio website built to showcase my projects, skills, certificates
 * Vite
 * CSS
 * React Icons
+  
+## A Note
+This is my first ever portfolio. I used AI to help me understand concepts, debug problems, and learn new things, but I made sure to understand the code before adding it to my project. I enjoyed it a lot while making it because I love creating new things!
